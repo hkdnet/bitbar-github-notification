@@ -1,3 +1,3 @@
+#!/usr/local/bin/zsh
 cd $(ghq list -p -e hkdnet/bitbar-github-notification)
-pwd
-bundle exec ruby main.rb
+~/.anyenv/envs/rbenv/shims/ruby main.rb
